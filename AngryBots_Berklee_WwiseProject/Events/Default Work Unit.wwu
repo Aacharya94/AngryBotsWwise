@@ -214,17 +214,147 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambience_Rain_4_Start" ID="{D67AD451-12E0-4656-8A03-7048636FABC7}"/>
-						<Event Name="Ambience_Rain_5_Start" ID="{359C5D11-AE6B-4D93-8316-22E6599B75CF}"/>
-						<Event Name="Ambience_Rain_6_Start" ID="{CFC4D58F-FF2F-45A5-A6E8-644372E263F2}"/>
+						<Event Name="Ambience_Rain_4_Start" ID="{D67AD451-12E0-4656-8A03-7048636FABC7}">
+							<ChildrenList>
+								<Action Name="" ID="{88A54941-A0AD-48ED-B0B9-E0532B1E4798}" ShortID="291256041">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_4" ID="{AE52D8C7-FE92-4B90-9A46-2E7197E6B314}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_5_Start" ID="{359C5D11-AE6B-4D93-8316-22E6599B75CF}">
+							<ChildrenList>
+								<Action Name="" ID="{7D54E85A-7C66-46BF-9742-ED36B3C85AC3}" ShortID="1003460909">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_5" ID="{59D5AC35-F2E9-4763-B18E-45A9D63B022E}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_6_Start" ID="{CFC4D58F-FF2F-45A5-A6E8-644372E263F2}">
+							<ChildrenList>
+								<Action Name="" ID="{0BCF28E7-8833-403B-A7DF-CDFA060B6AE8}" ShortID="803608007">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_6" ID="{90AFFF16-44B0-4BD1-838E-D0E456873B3C}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambience_Interior_3_Stop" ID="{91AE4AE2-D9B4-4B04-A577-9CA5523011F3}"/>
-						<Event Name="Ambience_Rain_4_Stop" ID="{F145BE78-44AF-423D-A2C0-F7E7DE8718DF}"/>
-						<Event Name="Ambience_Rain_5_Stop" ID="{0D3E81AD-EFE1-4E33-A03E-FB56F0073508}"/>
-						<Event Name="Ambience_Rain_6_Stop" ID="{5AB599AC-6A3B-4125-A44D-46AF63328FAE}"/>
-						<Event Name="Ambience_Rain_2_Start" ID="{8CEBDA55-0C41-4B02-9606-69D3D09418EA}"/>
-						<Event Name="Ambience_Rain_3_Start" ID="{3EAA1282-4DF5-41D1-9005-8D542D7A17B3}"/>
-						<Event Name="Ambience_Rain_2_Stop" ID="{04F89301-F8CA-4FB7-82EE-4E0B7F83AF96}"/>
-						<Event Name="Ambience_Rain_3_Stop" ID="{7799F876-1988-476A-B257-5E85DA282280}"/>
+						<Event Name="Ambience_Rain_4_Stop" ID="{F145BE78-44AF-423D-A2C0-F7E7DE8718DF}">
+							<ChildrenList>
+								<Action Name="" ID="{B8C70437-BAA8-4857-81E1-1614BD39FD76}" ShortID="450670890">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_4" ID="{AE52D8C7-FE92-4B90-9A46-2E7197E6B314}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_5_Stop" ID="{0D3E81AD-EFE1-4E33-A03E-FB56F0073508}">
+							<ChildrenList>
+								<Action Name="" ID="{104F09DE-75F9-4758-B4EB-786166F477CE}" ShortID="7069166">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_5" ID="{59D5AC35-F2E9-4763-B18E-45A9D63B022E}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_6_Stop" ID="{5AB599AC-6A3B-4125-A44D-46AF63328FAE}">
+							<ChildrenList>
+								<Action Name="" ID="{C9EEAF9D-D573-405D-B6A4-3A043265E7AB}" ShortID="163390303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_6" ID="{90AFFF16-44B0-4BD1-838E-D0E456873B3C}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_2_Start" ID="{8CEBDA55-0C41-4B02-9606-69D3D09418EA}">
+							<ChildrenList>
+								<Action Name="" ID="{2F2E7277-8AE3-4397-87A4-BFDEA0539EF0}" ShortID="415898050">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_2" ID="{3F988919-866A-447C-82DD-CC21D48BC827}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_3_Start" ID="{3EAA1282-4DF5-41D1-9005-8D542D7A17B3}">
+							<ChildrenList>
+								<Action Name="" ID="{7EF0467C-0612-483E-ADFF-E21B00D8D0AA}" ShortID="842518426">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_3" ID="{0B797062-C993-47A6-A1D7-5A87BD440A10}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_2_Stop" ID="{04F89301-F8CA-4FB7-82EE-4E0B7F83AF96}">
+							<ChildrenList>
+								<Action Name="" ID="{92A6E905-C1C0-4511-93D8-42AC3B060838}" ShortID="1058998406">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_2" ID="{3F988919-866A-447C-82DD-CC21D48BC827}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_3_Stop" ID="{7799F876-1988-476A-B257-5E85DA282280}">
+							<ChildrenList>
+								<Action Name="" ID="{1F9A7309-22AF-46E5-B30C-C7A9238AF744}" ShortID="623519823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_3" ID="{0B797062-C993-47A6-A1D7-5A87BD440A10}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambience_Final_Room_Stop" ID="{15833D38-F2FA-4028-BB14-4D3312CCE15A}"/>
 						<Event Name="Ambience_Final_Room_Start" ID="{51161F60-0D7D-4484-9A6C-869C35E74602}"/>
 						<Event Name="Airlock_Transition_1_Start" ID="{70BF53FB-641C-4394-AC2B-A5DE66014E7A}"/>

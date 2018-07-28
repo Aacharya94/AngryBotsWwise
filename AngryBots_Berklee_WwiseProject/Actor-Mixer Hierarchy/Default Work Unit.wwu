@@ -891,6 +891,774 @@
 								</Position>
 							</PositioningInfo>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Rain_2" ID="{3F988919-866A-447C-82DD-CC21D48BC827}" ShortID="752697873">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceRain_P1" ID="{13F6E230-BDC3-4978-A0D3-78518378026E}" ShortID="309224627">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P1" ID="{8181DE53-49F8-4DC7-BCC2-EAC052DF726B}" ShortID="3435569">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="942878654"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P1" ID="{8181DE53-49F8-4DC7-BCC2-EAC052DF726B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRain_P2" ID="{26E075AC-EFCD-4D4C-94BF-B10DC30BB5F9}" ShortID="1069196738">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P2" ID="{026B70EB-C4D5-40BB-A557-DF19D90E6C3B}" ShortID="114083083">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1048487607"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P2" ID="{026B70EB-C4D5-40BB-A557-DF19D90E6C3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRain_P3" ID="{F78EC750-99D4-4415-BB41-41BBF71F095D}" ShortID="130107958">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P3" ID="{93B3C1B7-2ED3-4954-BB26-3F07DB8EA29E}" ShortID="1009885934">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="864004574"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P3" ID="{93B3C1B7-2ED3-4954-BB26-3F07DB8EA29E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{EBD0E438-FAD5-4313-9964-23AC02D396ED}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Ambience_Rain_1_Path" ID="{0776A990-DB07-4C34-9F86-93F0D996FBAE}">
+											<PointList>
+												<Point>
+													<XPos>-16.4557</XPos>
+													<YPos>62.73886</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-6.32911392405063</XPos>
+													<YPos>72.6114649681529</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>10.12658</XPos>
+													<YPos>73.88535</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>18.3544303797468</XPos>
+													<YPos>65.6050955414013</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Rain_1_Path_01" ID="{B8E88B7F-FAAC-4555-B644-68E0F2A5DB0F}">
+											<PointList>
+												<Point>
+													<XPos>8.86076</XPos>
+													<YPos>68.47134</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>1.26582278481013</XPos>
+													<YPos>74.5222929936306</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>-3.79746835443038</XPos>
+													<YPos>68.7898089171975</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>-11.3924050632912</XPos>
+													<YPos>76.4331210191083</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Rain_1_Path_02" ID="{8C1357B1-93AF-45EC-9065-7EF7EBFE97C6}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>6.96203</XPos>
+													<YPos>65.6051</YPos>
+													<Flags>0</Flags>
+													<Time>1250</Time>
+												</Point>
+												<Point>
+													<XPos>-8.22784810126582</XPos>
+													<YPos>68.7898089171975</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>3.79746835443038</XPos>
+													<YPos>75.796178343949</YPos>
+													<Flags>0</Flags>
+													<Time>3750</Time>
+												</Point>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>84.7133757961783</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Rain_3" ID="{0B797062-C993-47A6-A1D7-5A87BD440A10}" ShortID="201933054">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceRain_P1" ID="{63ABB15A-6048-436D-A0C4-B18431AE1B3C}" ShortID="866699360">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P1" ID="{C22F920E-E395-4856-AB2E-563D14481F54}" ShortID="169340549">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="942878654"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P1" ID="{C22F920E-E395-4856-AB2E-563D14481F54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRain_P2" ID="{55F486DA-1F2B-48AD-8BB1-12857D44EE68}" ShortID="797044738">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P2" ID="{B8E2E9EC-87F1-44FC-ACB4-9DDA6621A308}" ShortID="853230634">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1048487607"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P2" ID="{B8E2E9EC-87F1-44FC-ACB4-9DDA6621A308}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRain_P3" ID="{035829C4-9C04-4A6F-9F77-AD9A7CDDB5AD}" ShortID="673569927">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P3" ID="{84C299A5-CDA5-418C-93A7-D582EF6CD182}" ShortID="389306878">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="864004574"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P3" ID="{84C299A5-CDA5-418C-93A7-D582EF6CD182}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{A745B8B6-E809-4120-B4E8-1BD0678677C6}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Ambience_Rain_1_Path" ID="{8E576118-053E-40AC-ACE7-CD0402724472}">
+											<PointList>
+												<Point>
+													<XPos>-16.4557</XPos>
+													<YPos>62.73886</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-6.32911392405063</XPos>
+													<YPos>72.6114649681529</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>10.12658</XPos>
+													<YPos>73.88535</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>18.3544303797468</XPos>
+													<YPos>65.6050955414013</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Rain_1_Path_01" ID="{E70A7BDD-C181-43AD-BAED-5A158A0106C3}">
+											<PointList>
+												<Point>
+													<XPos>8.86076</XPos>
+													<YPos>68.47134</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>1.26582278481013</XPos>
+													<YPos>74.5222929936306</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>-3.79746835443038</XPos>
+													<YPos>68.7898089171975</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>-11.3924050632912</XPos>
+													<YPos>76.4331210191083</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Rain_1_Path_02" ID="{AE5AB65B-3CCC-45FC-BBC0-6262593B1251}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>6.96203</XPos>
+													<YPos>65.6051</YPos>
+													<Flags>0</Flags>
+													<Time>1250</Time>
+												</Point>
+												<Point>
+													<XPos>-8.22784810126582</XPos>
+													<YPos>68.7898089171975</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>3.79746835443038</XPos>
+													<YPos>75.796178343949</YPos>
+													<Flags>0</Flags>
+													<Time>3750</Time>
+												</Point>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>84.7133757961783</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Rain_4" ID="{AE52D8C7-FE92-4B90-9A46-2E7197E6B314}" ShortID="204359544">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceRain_P1" ID="{FBE775B4-5BAF-49CA-8709-830B736EEE13}" ShortID="406603924">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P1" ID="{5114F1C1-1ABD-4F2C-9B87-28E580E80E70}" ShortID="1031609265">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="942878654"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P1" ID="{5114F1C1-1ABD-4F2C-9B87-28E580E80E70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRain_P2" ID="{5E4C50E9-D630-44C3-A5C9-3952BA674E4B}" ShortID="210964986">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P2" ID="{E231A103-1032-433B-8D4B-B4CC9948B6B6}" ShortID="593579863">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1048487607"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P2" ID="{E231A103-1032-433B-8D4B-B4CC9948B6B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRain_P3" ID="{C39200F2-C904-4F05-AD79-1218C5395387}" ShortID="589847269">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRain_P3" ID="{69F15D79-2D09-4D7A-A302-88BF20AE0B84}" ShortID="873596297">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRain_P3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="864004574"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRain_P3" ID="{69F15D79-2D09-4D7A-A302-88BF20AE0B84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{A57E29C1-EAE1-4EC0-BA82-339E5B1163AC}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Ambience_Rain_1_Path" ID="{103B8BE1-70CA-4BBC-9859-DDC5DE001198}">
+											<PointList>
+												<Point>
+													<XPos>-16.4557</XPos>
+													<YPos>62.73886</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-6.32911392405063</XPos>
+													<YPos>72.6114649681529</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>10.12658</XPos>
+													<YPos>73.88535</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>18.3544303797468</XPos>
+													<YPos>65.6050955414013</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Rain_1_Path_01" ID="{4E275334-2658-48AD-A08C-668872C15B55}">
+											<PointList>
+												<Point>
+													<XPos>8.86076</XPos>
+													<YPos>68.47134</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>1.26582278481013</XPos>
+													<YPos>74.5222929936306</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>-3.79746835443038</XPos>
+													<YPos>68.7898089171975</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>-11.3924050632912</XPos>
+													<YPos>76.4331210191083</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Rain_1_Path_02" ID="{020AAAF6-8A57-4AF7-A406-7CC0E63BBE78}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>6.96203</XPos>
+													<YPos>65.6051</YPos>
+													<Flags>0</Flags>
+													<Time>1250</Time>
+												</Point>
+												<Point>
+													<XPos>-8.22784810126582</XPos>
+													<YPos>68.7898089171975</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>3.79746835443038</XPos>
+													<YPos>75.796178343949</YPos>
+													<Flags>0</Flags>
+													<Time>3750</Time>
+												</Point>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>84.7133757961783</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Rain_5" ID="{59D5AC35-F2E9-4763-B18E-45A9D63B022E}" ShortID="698088733">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceRainMetal_P1" ID="{2BBF8D3F-2C8F-4725-93C5-E538B713FD20}" ShortID="522788354">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRainMetal_P1" ID="{FED69E01-D48B-4032-9571-E147C97D57BB}" ShortID="562861042">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRainMetal_P1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRainMetal_P1" ID="{FED69E01-D48B-4032-9571-E147C97D57BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRainMetal_P2" ID="{A5017004-2C86-46B9-8ECC-31C8028078A9}" ShortID="1065507283">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRainMetal_P2" ID="{F3E4468E-42D7-4F4A-AE55-ED759CD41404}" ShortID="821695345">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRainMetal_P2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRainMetal_P2" ID="{F3E4468E-42D7-4F4A-AE55-ED759CD41404}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRainMetal_P3" ID="{AAFD48C2-50E4-4177-999F-D374865A2EAA}" ShortID="545009958">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRainMetal_P3" ID="{530D1BEA-7D5C-48F3-8902-325B17150139}" ShortID="129680475">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRainMetal_P3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRainMetal_P3" ID="{530D1BEA-7D5C-48F3-8902-325B17150139}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Rain_6" ID="{90AFFF16-44B0-4BD1-838E-D0E456873B3C}" ShortID="272227647">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceRainMetal_P1" ID="{3292BA50-8370-4CA7-ADC8-A782C0D8F852}" ShortID="44158740">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRainMetal_P1" ID="{E2C9515A-F1C4-4501-A387-F32841C5F37B}" ShortID="317630424">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRainMetal_P1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="562861042"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRainMetal_P1" ID="{E2C9515A-F1C4-4501-A387-F32841C5F37B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRainMetal_P2" ID="{7F02645B-87C0-4F63-9F2D-8E452940B685}" ShortID="80686727">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRainMetal_P2" ID="{64B2B89D-2B19-485B-AC67-A85FFE83F23B}" ShortID="397733914">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRainMetal_P2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="821695345"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRainMetal_P2" ID="{64B2B89D-2B19-485B-AC67-A85FFE83F23B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceRainMetal_P3" ID="{DAC7ADD4-D350-472D-96CF-D10499376169}" ShortID="929654763">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceRainMetal_P3" ID="{927E0398-C622-4793-A6AB-9D485949E0C0}" ShortID="496357152">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceRainMetal_P3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="129680475"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceRainMetal_P3" ID="{927E0398-C622-4793-A6AB-9D485949E0C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX" ID="{10ACF2CF-1701-4E8D-AFC7-CCF90ED95B5C}" ShortID="495289723"/>
