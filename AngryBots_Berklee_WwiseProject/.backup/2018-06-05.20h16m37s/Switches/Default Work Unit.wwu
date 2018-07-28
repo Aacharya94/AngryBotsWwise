@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF8DE137-2D3D-4086-BA98-96EE30FB969D}" SchemaVersion="69">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{FF8DE137-2D3D-4086-BA98-96EE30FB969D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="LowHealthStinger" ID="{7AA396A8-2433-4D4B-B301-B8ADD5305EAE}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="LowHealthOn" ID="{673D8CAE-29B1-4B82-B772-E37CB4382A49}"/>
+						<Switch Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+						<Curve Name="" ID="{E38C7CFA-9CEB-4D89-A111-C737B3C24909}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.001</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>57.08467</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

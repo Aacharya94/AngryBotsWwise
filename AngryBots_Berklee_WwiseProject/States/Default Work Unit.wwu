@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FCE04A0-35B4-41B6-9F53-1E43622E522E}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{1FCE04A0-35B4-41B6-9F53-1E43622E522E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_States" ID="{78C65A98-0D8D-4376-84BC-09E5B720F3AA}">
+					<ChildrenList>
+						<State Name="None" ID="{C90D1E19-B1C6-4356-BF2C-742CA641F3C9}"/>
+						<State Name="Normal" ID="{A7DA01D9-CD7B-4125-AD97-1722414D3F6E}"/>
+						<State Name="Door_1_Unlocked" ID="{3E490AFE-0F1F-4E39-9746-F055B6399106}"/>
+						<State Name="Door_2_Unlocked" ID="{9AF827BA-E554-468F-A3C8-1299451DD200}"/>
+						<State Name="Door_3_Unlocked" ID="{0B6A49C2-0FED-42DE-93AD-BD78C0A964A9}"/>
+						<State Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+						<State Name="LowHealth" ID="{FCE59878-9DAB-475C-8A44-B6C447413740}"/>
+						<State Name="Exterior1" ID="{AAD5B061-C150-4D19-BF92-50E4FADA248B}"/>
+						<State Name="Cutscene" ID="{4D998094-3D78-453E-A6D6-85AD250FFAE7}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{C90D1E19-B1C6-4356-BF2C-742CA641F3C9}"/>
+							<EndState Name="Normal" ID="{A7DA01D9-CD7B-4125-AD97-1722414D3F6E}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Player_State" ID="{2F2D35D5-A0D1-4F84-9820-EAACBA272D8A}">
+					<ChildrenList>
+						<State Name="None" ID="{6E7F23F5-2116-4069-933F-E0FB09637C22}"/>
+						<State Name="Alive" ID="{79AE2E00-BF3D-4795-A7FA-27B5587AE6FF}"/>
+						<State Name="Dead" ID="{F021304E-721F-4725-B8D6-8DE9B672FCD7}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

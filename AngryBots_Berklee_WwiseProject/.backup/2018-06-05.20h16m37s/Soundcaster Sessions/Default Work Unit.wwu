@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3DB14F1-16F0-4B38-9092-E32FE270F3C0}" SchemaVersion="69">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F3DB14F1-16F0-4B38-9092-E32FE270F3C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Lesson_5_2_Music_Tester" ID="{D3F77F51-1908-4ACD-AADB-64852CB65CD4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_Selector_02" ID="{E766BA73-D1CF-4AAF-829B-4C64EF665C97}" WorkUnitID="{0E614DFC-5311-45E1-BABA-8F06542C834C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>2.40337094682231</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{C90D1E19-B1C6-4356-BF2C-742CA641F3C9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOn" ID="{673D8CAE-29B1-4B82-B772-E37CB4382A49}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Weapons_L04" ID="{FC81A466-AC09-49C2-AC51-EB20C4A551FF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Player_WeaponFire_Start" ID="{433CA4F4-B77E-4235-A0B6-54E669117E0D}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_WeaponFire_Stop" ID="{FC5EFAB3-83F5-466D-838B-8D825E12E31C}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0.744274809160305</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>3.42966221302896E-315</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Heartbeat" ID="{0AB6EA3F-AF0B-4FE9-BFA5-A4626BC514CD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Player_LowHealth_Start" ID="{73B2D8CD-A5B6-4A3A-8E48-154A511720FA}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_LowHealth_Stop" ID="{54DA1444-E642-4839-8A48-A82ABECF2CAA}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0.744274809160305</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>37.4376039933444</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Door_1_Unlocked" ID="{3E490AFE-0F1F-4E39-9746-F055B6399106}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Triggers" ID="{0B49E0F9-AB3F-4C9A-A280-4B512C48C489}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_Selector_02" ID="{E766BA73-D1CF-4AAF-829B-4C64EF665C97}" WorkUnitID="{0E614DFC-5311-45E1-BABA-8F06542C834C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Door_3_Unlocked" ID="{0B6A49C2-0FED-42DE-93AD-BD78C0A964A9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Cutscene" ID="{D7663FEF-DC78-4663-AC4E-CE8FE58EEC6D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Main_Music" ID="{D8786226-CB08-48EA-828C-69F4189F9F71}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Final_Room_Music" ID="{8E6F4488-4FFA-4DCC-B1A5-4CAB67837AB2}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Final_Cutscene_Audio" ID="{6E519954-FDB8-4833-81B8-670DA6924F09}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-19.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>3.26840321780205E-315</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{C90D1E19-B1C6-4356-BF2C-742CA641F3C9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOn" ID="{673D8CAE-29B1-4B82-B772-E37CB4382A49}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Reverb" ID="{E1065222-A0BA-468F-AA3D-EEB650B50E8A}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>3.42966221302896E-315</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Effects" ID="{C437CEA7-E6B4-45BD-96E1-4A096851BBD2}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Player_WeaponFire_Start" ID="{433CA4F4-B77E-4235-A0B6-54E669117E0D}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_WeaponFire_Stop" ID="{FC5EFAB3-83F5-466D-838B-8D825E12E31C}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>2.98313878080415</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Dialog Side Chaining" ID="{BE943860-AF1C-45C0-AA9E-F44C888DEEC7}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MechBot_Explo" ID="{F6A94007-93AF-4706-A755-C7C52F3AA82F}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DialogIntro" ID="{868D68F0-FF28-469A-B55D-50B73E0AF7E5}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Selector_02" ID="{E766BA73-D1CF-4AAF-829B-4C64EF665C97}" WorkUnitID="{0E614DFC-5311-45E1-BABA-8F06542C834C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MechBot_Warning_Dialog" ID="{E18F2412-A341-4E7B-85EB-5CD2831222CC}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-5.29182879377432</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>56.1608300907912</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{C90D1E19-B1C6-4356-BF2C-742CA641F3C9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="TerminalHack" ID="{709A4E5E-0EC0-4C48-B7AF-B93DF598AEA5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Hack_Terminal_Start" ID="{7C67E224-17F8-45B9-A3E8-5CBCD6B2A815}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hack_Terminal_Pause" ID="{BB4444AB-6B47-4477-9524-A86FC7B4F9DA}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hack_Terminal_Resume" ID="{D5C05B92-90AC-4E68-96C1-61721368613A}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hack_Terminal_Success" ID="{4C370686-4AF0-4C1A-896D-A7BE90670928}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>0.744274809160305</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>3.42966221302896E-315</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="L06_Music_test" ID="{C48CFC39-C588-4C45-859D-BDB9FBC7B342}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Main_Music" ID="{D8786226-CB08-48EA-828C-69F4189F9F71}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Final_Room_Music" ID="{8E6F4488-4FFA-4DCC-B1A5-4CAB67837AB2}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Final_Cutscene_Audio" ID="{6E519954-FDB8-4833-81B8-670DA6924F09}" WorkUnitID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}"/>
+							<Value>-2.80155642023346</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowHealthOff" ID="{02E6D0B0-0DCC-4259-9366-6A97091D5055}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

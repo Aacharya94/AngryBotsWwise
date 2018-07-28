@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}" SchemaVersion="75">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-130</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Bus Name="Ambience" ID="{89F95CE2-84AE-42E2-A132-879DA797533F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{B63FE12F-6BF3-4939-81A7-F71B0A5A6D95}" ShortID="894206370">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}" WorkUnitID="{10D208C7-899B-4E46-9487-24131FA2DA25}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{51389441-EDC3-48A6-AFF1-178ACD56E12A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>25</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>40</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{17387FF5-C393-46E9-8F29-A877809253B5}" ShortID="77041083">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}" WorkUnitID="{10D208C7-899B-4E46-9487-24131FA2DA25}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D6FA69EC-CA3D-487D-8A20-85AA669C163C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4.52793</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>39.74684</XPos>
+														<YPos>-0.07661</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Critical_Dialogue" ID="{8B534924-D863-435B-94B7-56FA28A6AED6}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Cutscene" ID="{2B3CF0A9-21CE-4CC6-A754-992874D13568}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{C59B3453-F160-41C2-82AD-18D8041B6C2F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{8EFDBBD6-0853-434E-8E18-EA9013028330}" ShortID="832735465">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}" WorkUnitID="{10D208C7-899B-4E46-9487-24131FA2DA25}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4B4CC00C-70B2-4986-84F5-785F0D3CBEB0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>61</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24.19035</XPos>
+														<YPos>33</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>38.65031</XPos>
+														<YPos>19</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>49.873417721519</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{B44775F3-3F35-457F-BF41-418E8AA2A8E8}" ShortID="349609379">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}" WorkUnitID="{10D208C7-899B-4E46-9487-24131FA2DA25}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AE39ECDE-D23F-4840-80E1-9CC62CB1A863}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2.50301</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>36.83528</XPos>
+														<YPos>-2.1735</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>46.95201</XPos>
+														<YPos>0.13492</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1.1962</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Airlock" ID="{B7AB3B22-2748-4CE5-B0CE-2CEDF2FD3EE7}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Aluminium_Tank" ID="{0D20C91A-F750-47E0-AE32-00E5F2AA1272}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Interior" ID="{E6DB59B5-161D-4E1E-B706-D9342547C03E}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{8EBCD3D0-19CB-45A8-BC63-1F6AC2E6ED05}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_States" ID="{78C65A98-0D8D-4376-84BC-09E5B720F3AA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Normal" ID="{A7DA01D9-CD7B-4125-AD97-1722414D3F6E}"/>
+										<State Name="Custom State" ID="{FAD5D4FD-888D-463B-9DEB-B3B1B4DC9AFE}" ShortID="681897916">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Interior1" ID="{257B6737-4335-4892-B85D-E12D1F535BE9}"/>
+										<State Name="Custom State" ID="{5A75E417-5CAD-4995-8AFB-65A831A6BE36}" ShortID="293603010">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32" Value="-70"/>
+												<Property Name="Volume" Type="Real64" Value="-19"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Low Health" ID="{CE3D2AF5-AF49-424B-805D-5321FBEE6C80}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Dialogue" ID="{8809D485-F2C2-42D5-B3EB-7B154CEE32D0}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Critical_Dialogue" ID="{8B534924-D863-435B-94B7-56FA28A6AED6}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="New_Wwise_Meter" ID="{727753A1-3DA9-42D1-98B0-921BB52DA6A1}" WorkUnitID="{CAEF9A35-B015-4E56-8F79-1C9C51E3EE23}"/>
+										</Reference>
+									</ReferenceList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Music" ID="{8EBCD3D0-19CB-45A8-BC63-1F6AC2E6ED05}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="SFX" ID="{C59B3453-F160-41C2-82AD-18D8041B6C2F}"/>
+											<DuckingParam>
+												<Volume>-4</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Ambience" ID="{89F95CE2-84AE-42E2-A132-879DA797533F}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Low Health" ID="{CE3D2AF5-AF49-424B-805D-5321FBEE6C80}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Non_Critical_Dialogue" ID="{5387039D-3A2E-4D50-97CD-648E79B4A13E}"/>
+											<DuckingParam>
+												<Volume>-4</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="Non_Critical_Dialogue" ID="{5387039D-3A2E-4D50-97CD-648E79B4A13E}"/>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_States" ID="{78C65A98-0D8D-4376-84BC-09E5B720F3AA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

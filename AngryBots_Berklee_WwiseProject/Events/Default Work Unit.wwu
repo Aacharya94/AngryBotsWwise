@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A0C3AF97-9FAE-4F66-B722-397A2D6C9F31}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{37ED52D3-B3E0-46D4-A1F4-DFF1F913ED23}" ShortID="956019879">
+					<ChildrenList>
+						<Folder Name="SFX" ID="{09478BB0-57A0-475A-B0AF-431AD627DF19}" ShortID="271503700">
+							<ChildrenList>
+								<Event Name="Player_Step_SolidMetal" ID="{B5DE1F3B-884C-426F-9681-E1B4173456FA}"/>
+								<Event Name="Player_Damage" ID="{F260F91B-25E0-4639-B700-CC33F679BAF5}"/>
+								<Event Name="Player_WeaponFire_Start" ID="{433CA4F4-B77E-4235-A0B6-54E669117E0D}"/>
+								<Event Name="Player_Death" ID="{E2E5A035-28C5-48D5-AAE9-CB4758BC2AF1}"/>
+								<Event Name="Player_WeaponFire_Stop" ID="{FC5EFAB3-83F5-466D-838B-8D825E12E31C}"/>
+								<Event Name="Player_LowHealth_Start" ID="{73B2D8CD-A5B6-4A3A-8E48-154A511720FA}"/>
+								<Event Name="Player_LowHealth_Stop" ID="{54DA1444-E642-4839-8A48-A82ABECF2CAA}"/>
+								<Event Name="Player_Step_Catwalk" ID="{A93C3CAE-E1B1-4B4F-BA5E-4A40CD699B42}"/>
+								<Event Name="Player_Step_Panel" ID="{C0692510-F46F-46D3-A2CB-079B4A66F2E9}"/>
+								<Event Name="Player_Step_Tile" ID="{734E87FF-F282-436E-8BE8-B75C211B1B82}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dialog" ID="{C013DCB8-962D-4775-994C-509104EFB25F}" ShortID="292853677">
+							<ChildrenList>
+								<Event Name="Player_Mech_Destroyed_Dialog" ID="{E6EFA2C2-5BF5-4630-9F0D-362DE8B1BFE1}"/>
+								<Event Name="Player_Intro_Dialog" ID="{685ED7C3-29AF-4473-AA48-12544ADAC050}"/>
+								<Event Name="Player_Final_Room_Dialog" ID="{0C330785-CE21-474D-8A12-2992ED666563}"/>
+								<Event Name="Player_Door_Unlocked_Dialog" ID="{DB2ACBE6-2EED-40E2-94A0-F7B28AAEFC73}"/>
+								<Event Name="PlayerEnterVO1" ID="{93A2CDBB-E50A-4577-9A7E-428EFB64BED4}"/>
+								<Event Name="Utec" ID="{212214CB-9320-4B44-95F3-797BF15869B3}"/>
+								<Event Name="PlayerEnterVO2" ID="{4BB57E26-E273-4D85-99E5-17408879137F}"/>
+								<Event Name="PlayerEnterVO3" ID="{8B53958E-2C49-4F6C-8668-17B3C2710570}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{0A5C5D2E-24C7-446D-A34D-253139888469}" ShortID="103623891">
+					<ChildrenList>
+						<Folder Name="SpiderBot" ID="{CFAF5791-BE3C-496F-8642-51AE98AA4EDF}" ShortID="1010237706">
+							<ChildrenList>
+								<Event Name="SpiderBot_Initial_Alert" ID="{EEF25DF4-1C03-4D07-9961-60FE5A7AEB5D}"/>
+								<Event Name="SpiderBot_Proximity" ID="{323240F1-207C-4DA6-8757-A3B71B52042D}">
+									<ChildrenList>
+										<Action Name="" ID="{04E8D295-0DCC-4B98-9DDB-D5C0E33249C7}" ShortID="715567035">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SpiderBot_Proximity" ID="{5C2B7AE3-8C23-4455-8CE0-5E40D77CCBF8}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SpiderBot_Explo" ID="{02FC744A-9EF9-4C7E-BBEF-B71BA1A7C4F9}">
+									<ChildrenList>
+										<Action Name="" ID="{C8D8D54A-90CB-4DFA-AC90-040DD82E773E}" ShortID="843947799">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SpiderBot_Explo" ID="{BBAEAFD6-551C-4A13-8ACF-847C32C6011F}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SpiderBot_Step" ID="{1CE9A979-6CBC-4A2C-93EA-DBA77F2BFED7}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BuzzerBot" ID="{3258A13D-7B18-40A4-A305-584D975A5284}" ShortID="419424148">
+							<ChildrenList>
+								<Event Name="BuzzerBot_Explo" ID="{D026EAC7-DD8F-41A3-B142-F91277C93F03}"/>
+								<Event Name="BuzzerBot_Flying" ID="{130904E0-7E52-4EC0-A4F4-8884BF5D9094}"/>
+								<Event Name="BuzzerBot_WeaponFire" ID="{75581CDB-DC2E-41E4-9482-0F392A82A17D}"/>
+								<Event Name="BuzzerBot_Flying_Stop" ID="{2DD96761-0F99-494F-A7E8-371E6280DE94}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="MechBot" ID="{312EE695-7346-4533-B2BC-14312863ECC7}" ShortID="823138915">
+							<ChildrenList>
+								<Event Name="MechBot_Alert" ID="{49628679-BA6E-40D0-8C96-B411D9D8F6DF}"/>
+								<Event Name="MechBot_Warning_Dialog" ID="{D9AB3F06-D276-4163-AF1E-76C218685148}"/>
+								<Event Name="MechBot_Explo" ID="{91C8CE5D-F64A-49F9-9FC1-DC467B05C6C5}"/>
+								<Event Name="MechBot_WeaponFire" ID="{125146A3-3DEF-4FCE-B30A-753F968362FD}"/>
+								<Event Name="MechBot_Missile_Explo" ID="{02779099-E972-46BB-91BF-B99AA4FF764D}"/>
+								<Event Name="MechBot_Step" ID="{585A83FA-E3EE-40C8-867C-8EBD1AE67465}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment_SFX" ID="{63FF73F8-3FA3-4E57-8F80-A9344C9C7714}" ShortID="157006531">
+					<ChildrenList>
+						<Event Name="Airlock_Open" ID="{5B9DF0D2-0524-48E9-BD63-FCF73001CADF}"/>
+						<Event Name="Airlock_Close" ID="{99B31B57-D2FD-4A9A-9A3E-9389A961D6C9}"/>
+						<Event Name="Door_Open" ID="{E555F0E2-C0B7-48EB-BD8A-B6A71696ACDD}"/>
+						<Event Name="Door_Close" ID="{01B03FE0-00E7-4A94-B3B4-D2600040601D}"/>
+						<Event Name="Hack_Terminal_Start" ID="{7C67E224-17F8-45B9-A3E8-5CBCD6B2A815}"/>
+						<Event Name="Hack_Terminal_Success" ID="{4C370686-4AF0-4C1A-896D-A7BE90670928}"/>
+						<Event Name="Locked_Door_Open" ID="{E358EAFB-A91D-4AAA-80E7-EA4467AA0CE1}"/>
+						<Event Name="Elevator_Start" ID="{2CACEDB0-A0F5-42CD-8EE2-06D3EB8700AC}"/>
+						<Event Name="Elevator_Stop" ID="{C1228DA0-871A-4946-8EDB-3097A6EE0C43}"/>
+						<Event Name="Bullet_Metal" ID="{827D4F87-3A2B-4C80-AE8E-BE88986DC1F4}"/>
+						<Event Name="Bullet_Metal_Enemy" ID="{6B422E72-ED01-4462-A29E-6CD102010433}"/>
+						<Event Name="Final_Door_Open" ID="{168A21CC-B7A9-4FC8-ABEB-61D1F4682BD0}"/>
+						<Event Name="Fan" ID="{4BAC1562-F19D-4907-8210-F936D54A273E}"/>
+						<Event Name="Hack_Terminal_Pause" ID="{BB4444AB-6B47-4477-9524-A86FC7B4F9DA}"/>
+						<Event Name="Hack_Terminal_Resume" ID="{D5C05B92-90AC-4E68-96C1-61721368613A}"/>
+						<Event Name="Env_Airlock_On" ID="{9D968672-F064-4063-8ABB-0FA5999A08EF}"/>
+						<Event Name="Env_Airlock_Off" ID="{48D72843-A0D8-4E30-AB85-937013CE1286}"/>
+						<Event Name="ConveyorStart" ID="{1E082680-E44D-41F8-8F6A-4AAB0CB01D1C}"/>
+						<Event Name="ConveyorStop" ID="{DA92161C-2518-4002-A106-0A179D7660F3}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{9E0B54D5-180B-4CAB-B6FC-10C3695FC550}" ShortID="751704525">
+					<ChildrenList>
+						<Event Name="Ambience_Rain_1_Start" ID="{57B84B21-018F-40C6-8D5A-D95BBA958923}">
+							<ChildrenList>
+								<Action Name="" ID="{33551A88-5F43-4CDE-BE52-3FE9A091CCF9}" ShortID="126445720">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_1" ID="{90D62295-7A7A-4705-B8DA-969959B71A9D}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Interior_1_Start" ID="{37161896-5677-479A-B641-AB43A3B18C1D}">
+							<ChildrenList>
+								<Action Name="" ID="{D099ED31-4D19-4E6E-9B15-CBA8B4B6FB80}" ShortID="81446688">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1" ID="{5612096B-6FF9-45DF-BA56-3F098DD9DBA7}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0E7B07D-BDBD-4830-BB33-1179C1C5ECBE}" ShortID="813679292">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_1_Stop" ID="{D9CEF328-18A5-47A1-89B9-F39A0189C85F}">
+							<ChildrenList>
+								<Action Name="" ID="{0F8CD3D5-519F-46C2-88F8-2E38F1E8B2C4}" ShortID="244768506">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Rain_1" ID="{90D62295-7A7A-4705-B8DA-969959B71A9D}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Interior_1_Stop" ID="{1F0F9FA6-8A06-4FB4-894C-C30FDD30B746}">
+							<ChildrenList>
+								<Action Name="" ID="{70E4A048-8598-470D-8473-A6204B185085}" ShortID="26261155">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1" ID="{5612096B-6FF9-45DF-BA56-3F098DD9DBA7}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6E5133CE-2A0D-4C45-BB90-79260D9E5377}" ShortID="777828906">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Interior_2_Start" ID="{15044A98-9BF8-4B43-A746-CC8BAA7813A2}">
+							<ChildrenList>
+								<Action Name="" ID="{77A9ED2C-9ACE-4428-9854-F8626016AB9C}" ShortID="175364891">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_2" ID="{302CF9C7-2837-458C-880F-088E6DAECB9C}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BB3B53AF-4E80-45D6-A06C-D7DBC6B8D830}" ShortID="686004754">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Rain_4_Start" ID="{D67AD451-12E0-4656-8A03-7048636FABC7}"/>
+						<Event Name="Ambience_Rain_5_Start" ID="{359C5D11-AE6B-4D93-8316-22E6599B75CF}"/>
+						<Event Name="Ambience_Rain_6_Start" ID="{CFC4D58F-FF2F-45A5-A6E8-644372E263F2}"/>
+						<Event Name="Ambience_Interior_3_Stop" ID="{91AE4AE2-D9B4-4B04-A577-9CA5523011F3}"/>
+						<Event Name="Ambience_Rain_4_Stop" ID="{F145BE78-44AF-423D-A2C0-F7E7DE8718DF}"/>
+						<Event Name="Ambience_Rain_5_Stop" ID="{0D3E81AD-EFE1-4E33-A03E-FB56F0073508}"/>
+						<Event Name="Ambience_Rain_6_Stop" ID="{5AB599AC-6A3B-4125-A44D-46AF63328FAE}"/>
+						<Event Name="Ambience_Rain_2_Start" ID="{8CEBDA55-0C41-4B02-9606-69D3D09418EA}"/>
+						<Event Name="Ambience_Rain_3_Start" ID="{3EAA1282-4DF5-41D1-9005-8D542D7A17B3}"/>
+						<Event Name="Ambience_Rain_2_Stop" ID="{04F89301-F8CA-4FB7-82EE-4E0B7F83AF96}"/>
+						<Event Name="Ambience_Rain_3_Stop" ID="{7799F876-1988-476A-B257-5E85DA282280}"/>
+						<Event Name="Ambience_Final_Room_Stop" ID="{15833D38-F2FA-4028-BB14-4D3312CCE15A}"/>
+						<Event Name="Ambience_Final_Room_Start" ID="{51161F60-0D7D-4484-9A6C-869C35E74602}"/>
+						<Event Name="Airlock_Transition_1_Start" ID="{70BF53FB-641C-4394-AC2B-A5DE66014E7A}"/>
+						<Event Name="Airlock_Transition_1_Stop" ID="{AFF204ED-6CA3-4AF6-8397-0DB045180581}"/>
+						<Event Name="Ambience_Interior_4_Start" ID="{01FF3796-BF0A-4BB1-B725-6BB1D2B90DE4}"/>
+						<Event Name="Ambience_Interior_4_Stop" ID="{8E1A8A18-A9FE-4603-8AC4-5A97A5CC8BD8}"/>
+						<Event Name="Ambience_Interior_2_Stop" ID="{F34B821C-BC3F-4577-BED6-C009F230A904}">
+							<ChildrenList>
+								<Action Name="" ID="{E63C40D2-254B-4092-8B77-F58570EF133E}" ShortID="155029797">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_2" ID="{302CF9C7-2837-458C-880F-088E6DAECB9C}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{05E8879D-230C-493C-B586-61FEF0D495FA}" ShortID="495228032">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{60D7D323-53A5-4681-9EC6-8D24C99FF7AA}" ShortID="18263598">
+					<ChildrenList>
+						<Event Name="Main_Music" ID="{D8786226-CB08-48EA-828C-69F4189F9F71}"/>
+						<Event Name="Final_Room_Music" ID="{8E6F4488-4FFA-4DCC-B1A5-4CAB67837AB2}"/>
+						<Event Name="Interior_State_Event" ID="{CFA853F9-ABB1-4D4E-A670-56AFB9ECF5AF}"/>
+						<Event Name="Exterior_State_Event" ID="{1F1FC6EB-6F0F-4935-B045-A98F9B6A9191}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Final_Cutscene_Audio" ID="{6E519954-FDB8-4833-81B8-670DA6924F09}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

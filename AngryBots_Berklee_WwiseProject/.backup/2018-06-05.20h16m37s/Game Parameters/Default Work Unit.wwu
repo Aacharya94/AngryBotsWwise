@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{10D208C7-899B-4E46-9487-24131FA2DA25}" SchemaVersion="69">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{10D208C7-899B-4E46-9487-24131FA2DA25}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Player_Health" ID="{CA1FC28F-4E54-4AB7-984A-9A6C9AB75588}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Player_Position" ID="{78B5CD3C-5F5D-40F9-81EA-53640A7E3A06}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Env_Airlock" ID="{8FC5FCB6-A629-452A-8EC5-B0023E26EB30}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Env_Int" ID="{F0F78D89-C0C3-4C7A-A457-CAC1E3DD9DED}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Critical_Dialogue_Volume" ID="{FDC8D979-4268-45A0-B712-4D05DDC04A1D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
