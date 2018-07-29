@@ -256,7 +256,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambience_Interior_3_Stop" ID="{91AE4AE2-D9B4-4B04-A577-9CA5523011F3}"/>
+						<Event Name="Ambience_Interior_3_Stop" ID="{91AE4AE2-D9B4-4B04-A577-9CA5523011F3}">
+							<ChildrenList>
+								<Action Name="" ID="{C39B5D8D-28C3-49B8-BFC5-0D83C09A34CF}" ShortID="386007132">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_3" ID="{8A1ADB2E-226A-4AE8-A8FF-AF082B42A141}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{490B8230-F165-4B00-9317-0757725198C9}" ShortID="1064326320">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{39EFFAAD-32F6-42D0-96B5-9778D137A30E}" ShortID="366738184">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Machines" ID="{34F3016C-FFCF-4B0E-AF19-9BA65600E157}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{805E746E-3988-4CB0-9830-70AB7AAAF803}" ShortID="499453542">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Mechs" ID="{E94A4CA7-D102-47A7-94C0-05395E61EA4A}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambience_Rain_4_Stop" ID="{F145BE78-44AF-423D-A2C0-F7E7DE8718DF}">
 							<ChildrenList>
 								<Action Name="" ID="{B8C70437-BAA8-4857-81E1-1614BD39FD76}" ShortID="450670890">
@@ -359,8 +402,94 @@
 						<Event Name="Ambience_Final_Room_Start" ID="{51161F60-0D7D-4484-9A6C-869C35E74602}"/>
 						<Event Name="Airlock_Transition_1_Start" ID="{70BF53FB-641C-4394-AC2B-A5DE66014E7A}"/>
 						<Event Name="Airlock_Transition_1_Stop" ID="{AFF204ED-6CA3-4AF6-8397-0DB045180581}"/>
-						<Event Name="Ambience_Interior_4_Start" ID="{01FF3796-BF0A-4BB1-B725-6BB1D2B90DE4}"/>
-						<Event Name="Ambience_Interior_4_Stop" ID="{8E1A8A18-A9FE-4603-8AC4-5A97A5CC8BD8}"/>
+						<Event Name="Ambience_Interior_4_Start" ID="{01FF3796-BF0A-4BB1-B725-6BB1D2B90DE4}">
+							<ChildrenList>
+								<Action Name="" ID="{2A88DA86-8150-435B-8847-91546B92CBA1}" ShortID="29591545">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_4" ID="{E8B2ED8B-915F-48D0-951E-BEB526BDFE91}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ED484FEB-2702-4377-9A58-1C6BCB74F3B8}" ShortID="956610791">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FFCBF69D-80BA-4D00-949F-D9BBEAAA6ADD}" ShortID="662955783">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Machines" ID="{34F3016C-FFCF-4B0E-AF19-9BA65600E157}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1B653AAD-14F8-4634-97BE-617A43959FA6}" ShortID="911101344">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Mechs" ID="{E94A4CA7-D102-47A7-94C0-05395E61EA4A}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Interior_4_Stop" ID="{8E1A8A18-A9FE-4603-8AC4-5A97A5CC8BD8}">
+							<ChildrenList>
+								<Action Name="" ID="{C75861E3-4D51-40AD-93B4-59F939CAFE13}" ShortID="572702772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_4" ID="{E8B2ED8B-915F-48D0-951E-BEB526BDFE91}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D70CB71-E9E7-4FC6-A0A9-D1F6FF964838}" ShortID="904906419">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F00C510D-ED09-450C-9319-B31D72A2EC03}" ShortID="799986776">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Machines" ID="{34F3016C-FFCF-4B0E-AF19-9BA65600E157}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9F9B59A3-424E-4DD7-8B51-44EA72AD58E6}" ShortID="447265882">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Mechs" ID="{E94A4CA7-D102-47A7-94C0-05395E61EA4A}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambience_Interior_2_Stop" ID="{F34B821C-BC3F-4577-BED6-C009F230A904}">
 							<ChildrenList>
 								<Action Name="" ID="{E63C40D2-254B-4092-8B77-F58570EF133E}" ShortID="155029797">
@@ -380,6 +509,50 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Interior_3_Start" ID="{CAE57524-EAC1-49C1-A8A3-23B1932F5E75}">
+							<ChildrenList>
+								<Action Name="" ID="{28C29169-4334-456C-B514-33DE62938F82}" ShortID="903697963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_3" ID="{8A1ADB2E-226A-4AE8-A8FF-AF082B42A141}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0529A3AF-DF9E-4451-AB6E-2AF83436EE6D}" ShortID="465901929">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_1_Shot_All" ID="{A1B59687-435D-4CF1-BA63-E59503054691}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EC85E7E6-1006-4FCA-A8B7-FCCF7530BB2A}" ShortID="976041491">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Machines" ID="{34F3016C-FFCF-4B0E-AF19-9BA65600E157}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E287B875-0BAA-4515-ADBF-337A0E7D9386}" ShortID="348108844">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience_Interior_Mechs" ID="{E94A4CA7-D102-47A7-94C0-05395E61EA4A}" WorkUnitID="{84285BF9-8488-4250-A0AB-BF59634C9717}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

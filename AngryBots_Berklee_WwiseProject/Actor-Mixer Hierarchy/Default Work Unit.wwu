@@ -1659,6 +1659,621 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Interior_3" ID="{8A1ADB2E-226A-4AE8-A8FF-AF082B42A141}" ShortID="728399914">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceInter_P1" ID="{593E9CD1-439B-4421-B8EB-F5CBE8462EE3}" ShortID="781382902">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_P1" ID="{D11E1385-061B-4847-BB67-D375D17A0CBE}" ShortID="79610191">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_P1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="311583800"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_P1" ID="{D11E1385-061B-4847-BB67-D375D17A0CBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceInter_P2" ID="{2CDE27F7-668B-49A0-9079-5002BD90D29A}" ShortID="723288590">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_P2" ID="{983F6976-DFF2-4210-A810-EB10A929FAF4}" ShortID="1007879911">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_P2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="98624587"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_P2" ID="{983F6976-DFF2-4210-A810-EB10A929FAF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceInter_P3" ID="{417375BA-01CA-4B3D-9047-1B625CC5F060}" ShortID="152762482">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_P3" ID="{86372E06-789E-4DD5-AA35-D1495390AB18}" ShortID="453594019">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_P3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="520317333"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_P3" ID="{86372E06-789E-4DD5-AA35-D1495390AB18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Interior_4" ID="{E8B2ED8B-915F-48D0-951E-BEB526BDFE91}" ShortID="894476990">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceInter_P1" ID="{0FE4D521-DE01-48CD-898A-0EF83F3513D3}" ShortID="893025537">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_P1" ID="{BA0E4C1B-A2F3-4AD0-8C3C-3B9611D82086}" ShortID="128965853">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_P1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="311583800"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_P1" ID="{BA0E4C1B-A2F3-4AD0-8C3C-3B9611D82086}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceInter_P2" ID="{1A8E2F94-92F5-4E5D-977E-D75769C1A80E}" ShortID="345457591">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_P2" ID="{7D10FE08-8CAB-4DC1-82E8-5188B56C9C2C}" ShortID="932858498">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_P2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="98624587"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_P2" ID="{7D10FE08-8CAB-4DC1-82E8-5188B56C9C2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceInter_P3" ID="{27EAA257-B913-4E78-A838-E38FC84D4490}" ShortID="968285359">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_P3" ID="{5DF8D867-B7E3-4EC3-B076-B2145C3CB434}" ShortID="998343189">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_P3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="520317333"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_P3" ID="{5DF8D867-B7E3-4EC3-B076-B2145C3CB434}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Interior_Machines" ID="{34F3016C-FFCF-4B0E-AF19-9BA65600E157}" ShortID="334178657">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AngryBotsAmbienceInter_machines_P1" ID="{70ABEEE8-D4BB-43BB-874E-0ACD74AF9DA5}" ShortID="820893740">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_machines_P1" ID="{413F9901-6503-4044-BB31-A6467C599EF1}" ShortID="110738589">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_machines_P1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_machines_P1" ID="{413F9901-6503-4044-BB31-A6467C599EF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceInter_machines_P2" ID="{9142A60F-FC33-40A0-B5EF-C0F553B616E6}" ShortID="616212914">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_machines_P2" ID="{78FEFAFC-4837-46C0-A61F-7E829E1698D1}" ShortID="1012235647">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_machines_P2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_machines_P2" ID="{78FEFAFC-4837-46C0-A61F-7E829E1698D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AngryBotsAmbienceInter_machines_P3" ID="{A599542A-4901-4B33-B3AF-415B16C3E154}" ShortID="204885895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AngryBotsAmbienceInter_machines_P3" ID="{AE2B5D52-39CB-46F1-A292-B2288C14BB71}" ShortID="545852732">
+											<Language>SFX</Language>
+											<AudioFile>AngryBotsAmbienceInter_machines_P3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AngryBotsAmbienceInter_machines_P3" ID="{AE2B5D52-39CB-46F1-A292-B2288C14BB71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambience_Interior_Mechs" ID="{E94A4CA7-D102-47A7-94C0-05395E61EA4A}" ShortID="591682548">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="beep1" ID="{798F01A2-DD3D-47E5-8A38-2E6075548DDD}" ShortID="902071759">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>70</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="beep1" ID="{80036A87-98FF-43B4-BA34-A89D113C045E}" ShortID="345495496">
+											<Language>SFX</Language>
+											<AudioFile>beep1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="beep1" ID="{80036A87-98FF-43B4-BA34-A89D113C045E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mech1" ID="{008C8EDE-8EE4-4CFD-B7DD-78D38FBC3F18}" ShortID="825182748">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mech1" ID="{847A5061-9CAC-4865-A2C1-C46F59A63842}" ShortID="834247880">
+											<Language>SFX</Language>
+											<AudioFile>mech1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mech1" ID="{847A5061-9CAC-4865-A2C1-C46F59A63842}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mech2" ID="{4D383CDB-0D9A-4F36-AE4E-F46AD175C774}" ShortID="904627446">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mech2" ID="{C180B142-C67A-4693-831C-A1502D122E02}" ShortID="635628092">
+											<Language>SFX</Language>
+											<AudioFile>mech2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mech2" ID="{C180B142-C67A-4693-831C-A1502D122E02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mech3" ID="{70588BDB-61AF-451E-8A41-5C0B2156560F}" ShortID="647123691">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mech3" ID="{4285150C-A294-41B4-80E3-C3E675C1639A}" ShortID="226338308">
+											<Language>SFX</Language>
+											<AudioFile>mech3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mech3" ID="{4285150C-A294-41B4-80E3-C3E675C1639A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mech4" ID="{92639EB1-2FCD-489B-8953-A6335A4FE3A2}" ShortID="721581527">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mech4" ID="{1CF4AE73-93D8-46BB-8758-048258CA9EA9}" ShortID="606032117">
+											<Language>SFX</Language>
+											<AudioFile>mech4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mech4" ID="{1CF4AE73-93D8-46BB-8758-048258CA9EA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mech5" ID="{F5B59969-CD32-4D3D-89BE-36EFADDBA874}" ShortID="10559284">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mech5" ID="{BA1E31F2-864C-45BE-BF86-9716E2C3B749}" ShortID="316073188">
+											<Language>SFX</Language>
+											<AudioFile>mech5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mech5" ID="{BA1E31F2-864C-45BE-BF86-9716E2C3B749}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Silence" ID="{9824E75F-ECD1-438D-BD8D-C947C0B1BF24}" ShortID="290341100">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>85</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{7BB8C87A-67B5-4B23-ACBE-DE33DACCA953}" ShortID="5184706" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="3"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{7BB8C87A-67B5-4B23-ACBE-DE33DACCA953}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Silence_01" ID="{5BDE040F-1D1B-4305-9B86-3D65EE75C8D9}" ShortID="207274815">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{157C7935-A602-4196-9222-DBFB67BD2552}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D90DE31-F116-4179-9BFD-36C4B9DF541A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{4D840941-FEED-4E66-89DD-59C1C8DB5345}" ShortID="341997536" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="2"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{4D840941-FEED-4E66-89DD-59C1C8DB5345}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{41C554E9-2193-4994-B083-72447DA46CF5}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Ambience_Interior_Mechs_Path" ID="{45D0C208-1BD6-410B-BC9D-8180DDFE4F52}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-23.4177215189873</XPos>
+													<YPos>60.5095541401274</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>-32.9113924050633</XPos>
+													<YPos>74.5222929936306</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>-12.0253164556962</XPos>
+													<YPos>77.7070063694268</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Interior_Mechs_Path_01" ID="{A5A3C148-FCA4-4EF7-8C92-4C61716636AE}">
+											<PointList>
+												<Point>
+													<XPos>-31.64557</XPos>
+													<YPos>47.45223</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-14.5569620253165</XPos>
+													<YPos>54.7770700636943</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>-13.92405</XPos>
+													<YPos>62.42038</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>34.1772151898734</XPos>
+													<YPos>71.9745222929936</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Ambience_Interior_Mechs_Path_02" ID="{6DBF6E06-078C-4BCE-82F4-B7B8277225BC}">
+											<PointList>
+												<Point>
+													<XPos>32.27848</XPos>
+													<YPos>52.54777</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-9.49367</XPos>
+													<YPos>54.77707</YPos>
+													<Flags>0</Flags>
+													<Time>1250</Time>
+												</Point>
+												<Point>
+													<XPos>-25.3164556962025</XPos>
+													<YPos>56.0509554140127</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>-48.7341772151899</XPos>
+													<YPos>63.0573248407643</YPos>
+													<Flags>0</Flags>
+													<Time>3750</Time>
+												</Point>
+												<Point>
+													<XPos>36.7088607594937</XPos>
+													<YPos>57.9617834394904</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX" ID="{10ACF2CF-1701-4E8D-AFC7-CCF90ED95B5C}" ShortID="495289723"/>
